@@ -1,0 +1,15 @@
+html{
+    background-color: bisque;
+}
+header{
+    text-decoration: underline;
+}
+#grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    column-gap: 10px;
+    row-gap: 10px;
+}
+#grid > .food{
+    width: 15vw;
+}
